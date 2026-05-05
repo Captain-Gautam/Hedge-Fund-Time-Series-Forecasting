@@ -1,8 +1,5 @@
 # Hedge Fund - Time Series Forecasting (Kaggle Competition)
 
-**Author**: Gautam Prajapati
-**Course**: CSE602 Deep Learning – Winter 2026
-
 ## Overview
 This repository contains the code and methodology for the Kaggle Competition: **Hedge Fund - Time Series Forecasting**. The task is to predict future financial market values using historical observations while avoiding any look-ahead bias.
 
