@@ -1,0 +1,270 @@
+2026-04-13 15:47:54 | Started TFT Pipeline Configuration
+2026-04-13 15:47:59 | Loading Data...
+2026-04-13 15:48:00 | Train Shape: (5337414, 94) | Test Shape: (1447107, 92)
+2026-04-13 15:48:04 | Performing chronological split and scaling...
+2026-04-13 15:48:06 | Selecting Top 30 Features based on weighted absolute correlation...
+2026-04-13 15:48:10 | Selected Top Features: ['feature_ar', 'feature_bz', 'feature_ad', 'feature_cf', 'feature_bt', 'feature_aq', 'feature_l', 'feature_cg', 'feature_bf', 'feature_bv', 'feature_bn', 'feature_ca', 'feature_bh', 'feature_a', 'feature_bs', 'feature_bw', 'feature_bk', 'feature_am', 'feature_ai', 'feature_bo', 'feature_m', 'feature_s', 'feature_u', 'feature_au', 'feature_cd', 'feature_cb', 'feature_n', 'feature_as', 'feature_at', 'feature_ak']
+2026-04-13 15:48:10 | Handling Missing Values via Imputation & Scaling...
+2026-04-13 15:48:23 | Building sequences...
+2026-04-13 15:48:34 | X_train: (4092929, 4, 33) | X_val: (500000, 4, 33)
+2026-04-13 15:48:41 | Model initialized. Parameters: 308,305
+2026-04-13 15:48:49 | Computing Validation RMSE from saved checkpoints...
+2026-04-13 15:48:49 | Found 40 checkpoints
+2026-04-13 15:48:57 | Epoch 01 | Val Loss: 12591.412917 | Val RMSE(P50): 0.005440
+2026-04-13 15:49:04 | Epoch 02 | Val Loss: 15631.291514 | Val RMSE(P50): 0.007338
+2026-04-13 15:49:12 | Epoch 03 | Val Loss: 32640.249230 | Val RMSE(P50): 0.002848
+2026-04-13 15:49:19 | Epoch 04 | Val Loss: 10492.456130 | Val RMSE(P50): 0.004720
+2026-04-13 15:49:27 | Epoch 05 | Val Loss: 6776.765439 | Val RMSE(P50): 0.003552
+2026-04-13 15:49:34 | Epoch 06 | Val Loss: 2770.878538 | Val RMSE(P50): 0.003166
+2026-04-13 15:49:43 | Epoch 07 | Val Loss: 2992.508425 | Val RMSE(P50): 0.002807
+2026-04-13 15:49:51 | Epoch 08 | Val Loss: 3668.852036 | Val RMSE(P50): 0.002672
+2026-04-13 15:50:00 | Epoch 09 | Val Loss: 3628.239003 | Val RMSE(P50): 0.002994
+2026-04-13 15:50:08 | Epoch 10 | Val Loss: 2750.227973 | Val RMSE(P50): 0.002763
+2026-04-13 15:50:16 | Epoch 11 | Val Loss: 2629.289459 | Val RMSE(P50): 0.002739
+2026-04-13 15:50:25 | Epoch 12 | Val Loss: 2847.963641 | Val RMSE(P50): 0.002660
+2026-04-13 15:50:33 | Epoch 13 | Val Loss: 2141.352823 | Val RMSE(P50): 0.002758
+2026-04-13 15:50:41 | Epoch 14 | Val Loss: 2696.968380 | Val RMSE(P50): 0.002909
+2026-04-13 15:50:50 | Epoch 15 | Val Loss: 1922.817194 | Val RMSE(P50): 0.002656
+2026-04-13 15:50:58 | Epoch 16 | Val Loss: 2191.388954 | Val RMSE(P50): 0.002767
+2026-04-13 15:51:06 | Epoch 17 | Val Loss: 1735.171429 | Val RMSE(P50): 0.002764
+2026-04-13 15:51:14 | Epoch 18 | Val Loss: 2250.172769 | Val RMSE(P50): 0.002673
+2026-04-13 15:51:22 | Epoch 19 | Val Loss: 2066.558322 | Val RMSE(P50): 0.002736
+2026-04-13 15:51:30 | Epoch 20 | Val Loss: 1793.125477 | Val RMSE(P50): 0.002785
+2026-04-13 15:51:38 | Epoch 21 | Val Loss: 1894.916980 | Val RMSE(P50): 0.002717
+2026-04-13 15:51:46 | Epoch 22 | Val Loss: 1791.342034 | Val RMSE(P50): 0.002654
+2026-04-13 15:51:55 | Epoch 23 | Val Loss: 1854.690379 | Val RMSE(P50): 0.002677
+2026-04-13 15:52:03 | Epoch 24 | Val Loss: 1870.452546 | Val RMSE(P50): 0.002667
+2026-04-13 15:52:11 | Epoch 25 | Val Loss: 1776.923497 | Val RMSE(P50): 0.002685
+2026-04-13 15:52:19 | Epoch 26 | Val Loss: 1943.249931 | Val RMSE(P50): 0.002688
+2026-04-13 15:52:27 | Epoch 27 | Val Loss: 1789.300387 | Val RMSE(P50): 0.002673
+2026-04-13 15:52:35 | Epoch 28 | Val Loss: 1836.475209 | Val RMSE(P50): 0.002658
+2026-04-13 15:52:43 | Epoch 29 | Val Loss: 1785.647443 | Val RMSE(P50): 0.002657
+2026-04-13 15:52:51 | Epoch 30 | Val Loss: 1882.429383 | Val RMSE(P50): 0.002655
+2026-04-13 15:52:59 | Epoch 31 | Val Loss: 1896.343284 | Val RMSE(P50): 0.002684
+2026-04-13 15:53:07 | Epoch 32 | Val Loss: 1772.800737 | Val RMSE(P50): 0.002662
+2026-04-13 15:53:15 | Epoch 33 | Val Loss: 1785.785143 | Val RMSE(P50): 0.002672
+2026-04-13 15:53:23 | Epoch 34 | Val Loss: 1788.357187 | Val RMSE(P50): 0.002658
+2026-04-13 15:53:31 | Epoch 35 | Val Loss: 1809.936968 | Val RMSE(P50): 0.002661
+2026-04-13 15:53:39 | Epoch 36 | Val Loss: 1809.986688 | Val RMSE(P50): 0.002663
+2026-04-13 15:53:47 | Epoch 37 | Val Loss: 1801.892908 | Val RMSE(P50): 0.002662
+2026-04-13 15:53:56 | Epoch 38 | Val Loss: 1792.139960 | Val RMSE(P50): 0.002660
+2026-04-13 15:54:05 | Epoch 39 | Val Loss: 1807.005406 | Val RMSE(P50): 0.002661
+2026-04-13 15:54:13 | Epoch 40 | Val Loss: 1801.811691 | Val RMSE(P50): 0.002661
+2026-04-13 15:54:13 | Best Val RMSE(P50): 0.002654 at Epoch 22
+2026-04-13 15:54:13 | Done!
+2026-04-13 15:54:22 | Loss & RMSE plot saved to checkpoints_05_quantile\loss_rmse_vs_epoch.png
+2026-04-13 15:54:27 | ============================================================
+2026-04-13 15:54:27 | WEIGHTED RMSE COMPARISON (Competition Metric)
+2026-04-13 15:54:27 | ============================================================
+2026-04-13 15:54:27 | Baseline RMSE (predict 0):   0.002650
+2026-04-13 15:54:27 | Best Model RMSE (P50):       0.002654  (Epoch 22)
+2026-04-13 15:54:27 | Worst Model RMSE (P50):      0.007338  (Epoch 2)
+2026-04-13 15:54:27 | ------------------------------------------------------------
+2026-04-13 15:54:27 | Result: BASELINE WINS — model is 0.14% worse than predicting 0
+2026-04-13 15:54:27 | ============================================================
+2026-04-13 15:54:27 | Comparison plot saved to checkpoints_05_quantile\baseline_vs_model_rmse.png
+2026-04-13 15:54:49 | ============================================================
+2026-04-13 15:54:49 | WEIGHTED RMSE COMPARISON (Competition Metric)
+2026-04-13 15:54:49 | ============================================================
+2026-04-13 15:54:49 | Baseline RMSE (predict 0):   0.002650
+2026-04-13 15:54:49 | Best Model RMSE (P50):       0.002654  (Epoch 22)
+2026-04-13 15:54:49 | Worst Model RMSE (P50):      0.007338  (Epoch 2)
+2026-04-13 15:54:49 | ------------------------------------------------------------
+2026-04-13 15:54:49 | Result: BASELINE WINS — model is 0.14% worse than predicting 0
+2026-04-13 15:54:49 | ============================================================
+2026-04-13 15:54:49 | Comparison plot saved to checkpoints_05_quantile\baseline_vs_model_rmse.png
+2026-04-13 15:54:51 | Running Advanced Multi-Horizon Quantile Validation...
+2026-04-13 15:54:51 | Loading checkpoint_epoch_40.pt for inference...
+2026-04-13 15:54:56 | Generated 1447107 multi-horizon sequences organically!
+2026-04-13 15:54:56 | Quantile Predictions (P10, P50, P90) across horizons:
+2026-04-13 15:54:56 |  Horizon: 25 | P10: -0.017104 | P50 (Median): -0.002249 | P90: 0.008369
+2026-04-13 15:54:56 |  Horizon: 1 | P10: -0.013924 | P50 (Median): -0.002106 | P90: 0.005504
+2026-04-13 15:54:56 |  Horizon: 3 | P10: -0.008998 | P50 (Median): -0.001762 | P90: 0.002175
+2026-04-13 15:54:56 |  Horizon: 10 | P10: -0.005948 | P50 (Median): -0.001253 | P90: 0.001035
+2026-04-13 15:54:56 |  Horizon: 3 | P10: -0.005109 | P50 (Median): -0.001153 | P90: 0.000859
+2026-04-13 15:54:56 |  Horizon: 1 | P10: -0.004505 | P50 (Median): -0.000931 | P90: 0.001412
+2026-04-13 15:54:56 |  Horizon: 3 | P10: -0.004651 | P50 (Median): -0.000964 | P90: 0.001268
+2026-04-13 15:54:56 |  Horizon: 10 | P10: -0.005072 | P50 (Median): -0.001103 | P90: 0.001002
+2026-04-13 15:54:56 |  Horizon: 25 | P10: -0.005340 | P50 (Median): -0.001139 | P90: 0.000953
+2026-04-13 15:54:56 |  Horizon: 1 | P10: -0.005997 | P50 (Median): -0.001235 | P90: 0.001102
+2026-04-13 15:54:56 |  Horizon: 1 | P10: -0.005200 | P50 (Median): -0.001173 | P90: 0.000847
+2026-04-13 15:54:56 |  Horizon: 3 | P10: -0.004923 | P50 (Median): -0.001095 | P90: 0.001152
+2026-04-13 15:54:56 |  Horizon: 1 | P10: -0.004949 | P50 (Median): -0.001066 | P90: 0.001264
+2026-04-13 15:54:56 |  Horizon: 25 | P10: -0.005182 | P50 (Median): -0.001149 | P90: 0.001093
+2026-04-13 15:54:56 |  Horizon: 3 | P10: -0.005272 | P50 (Median): -0.001200 | P90: 0.000800
+2026-04-13 15:59:25 | Computing Kaggle Competition Score for each checkpoint...
+2026-04-13 15:59:33 | Epoch 01 | Competition Score: 0.000000
+2026-04-13 15:59:41 | Epoch 02 | Competition Score: 0.000000
+2026-04-13 15:59:49 | Epoch 03 | Competition Score: 0.000000
+2026-04-13 15:59:57 | Epoch 04 | Competition Score: 0.000000
+2026-04-13 16:00:05 | Epoch 05 | Competition Score: 0.000000
+2026-04-13 16:00:13 | Epoch 06 | Competition Score: 0.000000
+2026-04-13 16:00:20 | Epoch 07 | Competition Score: 0.000000
+2026-04-13 16:00:28 | Epoch 08 | Competition Score: 0.000000
+2026-04-13 16:00:35 | Epoch 09 | Competition Score: 0.000000
+2026-04-13 16:00:43 | Epoch 10 | Competition Score: 0.000000
+2026-04-13 16:00:51 | Epoch 11 | Competition Score: 0.000000
+2026-04-13 16:00:58 | Epoch 12 | Competition Score: 0.000000
+2026-04-13 16:01:06 | Epoch 13 | Competition Score: 0.000000
+2026-04-13 16:01:13 | Epoch 14 | Competition Score: 0.000000
+2026-04-13 16:01:21 | Epoch 15 | Competition Score: 0.000000
+2026-04-13 16:01:28 | Epoch 16 | Competition Score: 0.000000
+2026-04-13 16:01:36 | Epoch 17 | Competition Score: 0.000000
+2026-04-13 16:01:44 | Epoch 18 | Competition Score: 0.000000
+2026-04-13 16:01:53 | Epoch 19 | Competition Score: 0.000000
+2026-04-13 16:02:01 | Epoch 20 | Competition Score: 0.000000
+2026-04-13 16:02:10 | Epoch 21 | Competition Score: 0.000000
+2026-04-13 16:02:18 | Epoch 22 | Competition Score: 0.000000
+2026-04-13 16:02:26 | Epoch 23 | Competition Score: 0.000000
+2026-04-13 16:02:34 | Epoch 24 | Competition Score: 0.000000
+2026-04-13 16:02:43 | Epoch 25 | Competition Score: 0.000000
+2026-04-13 16:02:51 | Epoch 26 | Competition Score: 0.000000
+2026-04-13 16:02:59 | Epoch 27 | Competition Score: 0.000000
+2026-04-13 16:03:07 | Epoch 28 | Competition Score: 0.000000
+2026-04-13 16:03:15 | Epoch 29 | Competition Score: 0.000000
+2026-04-13 16:03:23 | Epoch 30 | Competition Score: 0.000000
+2026-04-13 16:03:31 | Epoch 31 | Competition Score: 0.000000
+2026-04-13 16:03:39 | Epoch 32 | Competition Score: 0.000000
+2026-04-13 16:03:48 | Epoch 33 | Competition Score: 0.000000
+2026-04-13 16:03:56 | Epoch 34 | Competition Score: 0.000000
+2026-04-13 16:04:04 | Epoch 35 | Competition Score: 0.000000
+2026-04-13 16:04:12 | Epoch 36 | Competition Score: 0.000000
+2026-04-13 16:04:20 | Epoch 37 | Competition Score: 0.000000
+2026-04-13 16:04:28 | Epoch 38 | Competition Score: 0.000000
+2026-04-13 16:04:36 | Epoch 39 | Competition Score: 0.000000
+2026-04-13 16:04:44 | Epoch 40 | Competition Score: 0.000000
+2026-04-13 16:04:44 | ============================================================
+2026-04-13 16:04:44 | KAGGLE COMPETITION METRIC SUMMARY
+2026-04-13 16:04:44 | ============================================================
+2026-04-13 16:04:44 | Baseline Score (predict 0):    0.000000
+2026-04-13 16:04:44 | Best Model Score:              0.000000  (Epoch 1)
+2026-04-13 16:04:44 | Worst Model Score:             0.000000  (Epoch 1)
+2026-04-13 16:04:44 | ============================================================
+2026-04-13 16:04:44 | Competition score plot saved to checkpoints_05_quantile\competition_score_vs_epoch.png
+2026-04-13 16:06:31 | Loaded checkpoint_epoch_22.pt
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | ============================================================
+2026-04-13 16:06:39 | DIAGNOSTIC ANALYSIS
+2026-04-13 16:06:39 | ============================================================
+2026-04-13 16:06:39 | Numerator   sum(w*(y-ŷ)²) = 37368920.000000
+2026-04-13 16:06:39 | Denominator sum(w*y²)      = 37261224.000000
+2026-04-13 16:06:39 | Ratio                      = 1.002890
+2026-04-13 16:06:39 | Score > 0 needs ratio < 1.0
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | Baseline numerator (ŷ=0)   = 37261224.000000
+2026-04-13 16:06:39 | Model is 1.0029x the baseline (need < 1.0x)
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | --- Prediction Statistics ---
+2026-04-13 16:06:39 | y_val   : mean=-0.32154211, std=27.55908012, min=-776.58392334, max=878.56762695
+2026-04-13 16:06:39 | y_pred  : mean=-0.00693903, std=0.00850013, min=-0.02241818, max=0.03415296
+2026-04-13 16:06:39 | w_val   : mean=10611472.00000000, std=120205136.00000000, min=0.00000000, max=21967968256.00000000
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | Correlation(y, ŷ): -0.007178
+2026-04-13 16:06:39 | Weighted Correlation(y, ŷ): 0.065333
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | Sign accuracy: 0.5484 (0.5 = random)
+2026-04-13 16:06:39 | Pred/Target magnitude ratio: 0.0013
+2026-04-13 16:06:39 |   (> 1 means predictions are too large, adding noise)
+2026-04-13 16:06:39 | 
+2026-04-13 16:06:39 | --- What if we scale predictions? ---
+2026-04-13 16:06:39 |   scale=0.00 -> score=0.000000
+2026-04-13 16:06:39 |   scale=0.01 -> score=0.013668
+2026-04-13 16:06:39 |   scale=0.05 -> score=0.029846
+2026-04-13 16:06:39 |   scale=0.10 -> score=0.040896
+2026-04-13 16:06:39 |   scale=0.20 -> score=0.053937
+2026-04-13 16:06:39 |   scale=0.50 -> score=0.063275
+2026-04-13 16:06:39 |   scale=1.00 -> score=0.000000
+2026-04-13 16:06:39 | ============================================================
+2026-04-13 16:10:37 | Analytical optimal scale: 0.4337
+2026-04-13 16:10:37 | Fine-grained scale search...
+2026-04-13 16:10:39 | 
+2026-04-13 16:10:39 | ============================================================
+2026-04-13 16:10:39 | OPTIMAL SCALE FOUND: 0.4340
+2026-04-13 16:10:39 | BEST COMPETITION SCORE: 0.064028
+2026-04-13 16:10:39 | ============================================================
+2026-04-13 16:10:39 | Plot saved to checkpoints_05_quantile\optimal_scale_search.png
+2026-04-13 16:10:39 | 
+2026-04-13 16:10:39 | Evaluating ALL checkpoints at optimal scale...
+2026-04-13 16:10:47 | Epoch 01 | Fixed scale(0.43): 0.000000 | Own optimal scale(-0.00): 0.006918 ***
+2026-04-13 16:10:55 | Epoch 02 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.00): 0.007580 ***
+2026-04-13 16:11:02 | Epoch 03 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.02): 0.009531 ***
+2026-04-13 16:11:10 | Epoch 04 | Fixed scale(0.43): 0.000000 | Own optimal scale(-0.00): 0.002697
+2026-04-13 16:11:17 | Epoch 05 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.02): 0.013707 ***
+2026-04-13 16:11:25 | Epoch 06 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.02): 0.014921 ***
+2026-04-13 16:11:33 | Epoch 07 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.04): 0.014290
+2026-04-13 16:11:41 | Epoch 08 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.08): 0.010748
+2026-04-13 16:11:50 | Epoch 09 | Fixed scale(0.43): 0.000000 | Own optimal scale(-0.00): 0.001544
+2026-04-13 16:11:58 | Epoch 10 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.06): 0.020586 ***
+2026-04-13 16:12:06 | Epoch 11 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.07): 0.018633
+2026-04-13 16:12:14 | Epoch 12 | Fixed scale(0.43): 0.047194 | Own optimal scale(0.33): 0.049640 ***
+2026-04-13 16:12:22 | Epoch 13 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.05): 0.015188
+2026-04-13 16:12:30 | Epoch 14 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.02): 0.008656
+2026-04-13 16:12:38 | Epoch 15 | Fixed scale(0.43): 0.051413 | Own optimal scale(0.38): 0.051848 ***
+2026-04-13 16:12:46 | Epoch 16 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.04): 0.013179
+2026-04-13 16:12:54 | Epoch 17 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.06): 0.018799
+2026-04-13 16:13:02 | Epoch 18 | Fixed scale(0.43): 0.045361 | Own optimal scale(0.28): 0.054985 ***
+2026-04-13 16:13:10 | Epoch 19 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.07): 0.018616
+2026-04-13 16:13:17 | Epoch 20 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.09): 0.030755
+2026-04-13 16:13:25 | Epoch 21 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.13): 0.032915
+2026-04-13 16:13:33 | Epoch 22 | Fixed scale(0.43): 0.064028 | Own optimal scale(0.43): 0.064028 ***
+2026-04-13 16:13:43 | Epoch 23 | Fixed scale(0.43): 0.032654 | Own optimal scale(0.25): 0.049845
+2026-04-13 16:13:52 | Epoch 24 | Fixed scale(0.43): 0.059524 | Own optimal scale(0.33): 0.063142
+2026-04-13 16:14:01 | Epoch 25 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.21): 0.045265
+2026-04-13 16:14:10 | Epoch 26 | Fixed scale(0.43): 0.000000 | Own optimal scale(0.21): 0.046367
+2026-04-13 16:14:18 | Epoch 27 | Fixed scale(0.43): 0.014323 | Own optimal scale(0.22): 0.039897
+2026-04-13 16:14:26 | Epoch 28 | Fixed scale(0.43): 0.063494 | Own optimal scale(0.39): 0.063901
+2026-04-13 16:14:35 | Epoch 29 | Fixed scale(0.43): 0.064654 | Own optimal scale(0.40): 0.064940 ***
+2026-04-13 16:14:43 | Epoch 30 | Fixed scale(0.43): 0.064928 | Own optimal scale(0.42): 0.064966 ***
+2026-04-13 16:14:52 | Epoch 31 | Fixed scale(0.43): 0.036394 | Own optimal scale(0.25): 0.055882
+2026-04-13 16:15:00 | Epoch 32 | Fixed scale(0.43): 0.061138 | Own optimal scale(0.36): 0.062581
+2026-04-13 16:15:09 | Epoch 33 | Fixed scale(0.43): 0.041968 | Own optimal scale(0.27): 0.052055
+2026-04-13 16:15:17 | Epoch 34 | Fixed scale(0.43): 0.064944 | Own optimal scale(0.39): 0.065378 ***
+2026-04-13 16:15:25 | Epoch 35 | Fixed scale(0.43): 0.064376 | Own optimal scale(0.37): 0.065350
+2026-04-13 16:15:33 | Epoch 36 | Fixed scale(0.43): 0.062350 | Own optimal scale(0.35): 0.064045
+2026-04-13 16:15:41 | Epoch 37 | Fixed scale(0.43): 0.063203 | Own optimal scale(0.36): 0.064712
+2026-04-13 16:15:49 | Epoch 38 | Fixed scale(0.43): 0.063525 | Own optimal scale(0.37): 0.064432
+2026-04-13 16:15:57 | Epoch 39 | Fixed scale(0.43): 0.062440 | Own optimal scale(0.36): 0.063716
+2026-04-13 16:16:06 | Epoch 40 | Fixed scale(0.43): 0.062980 | Own optimal scale(0.37): 0.064057
+2026-04-13 16:16:06 | 
+2026-04-13 16:16:06 | ============================================================
+2026-04-13 16:16:06 | BEST OVERALL: Epoch 34 → Score 0.065378
+2026-04-13 16:16:06 | ============================================================
+2026-04-13 16:23:29 | Loaded checkpoint_epoch_34.pt for quantile calibration analysis
+2026-04-13 16:23:37 | Validation samples: 500,000
+2026-04-13 16:23:37 | 
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | QUANTILE CALIBRATION
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | Quantile     Expected     Actual       Weighted     Status
+2026-04-13 16:23:37 | ------------------------------------------------------------
+2026-04-13 16:23:37 | P10          10.0%        28.0%       8.2%       Poorly calibrated
+2026-04-13 16:23:37 | P50          50.0%        51.3%       46.5%       Well calibrated
+2026-04-13 16:23:37 | P90          90.0%        73.8%       85.8%       Poorly calibrated
+2026-04-13 16:23:37 | 
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | PREDICTION INTERVAL COVERAGE (P10 to P90)
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | Expected coverage:  80.0%
+2026-04-13 16:23:37 | Actual coverage:    45.8%
+2026-04-13 16:23:37 | Weighted coverage:  77.6%
+2026-04-13 16:23:37 | Status: UNDERCONFIDENT intervals (too narrow)
+2026-04-13 16:23:37 | 
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | PREDICTION INTERVAL WIDTH (Sharpness)
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | Mean interval width (P90-P10):     0.235666
+2026-04-13 16:23:37 | Median interval width (P90-P10):   0.232081
+2026-04-13 16:23:37 | Weighted mean width:               0.001449
+2026-04-13 16:23:37 | Target std:                        27.559080
+2026-04-13 16:23:37 | Width / Target std ratio:          0.008551
+2026-04-13 16:23:37 | 
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | PER-QUANTILE PINBALL LOSS
+2026-04-13 16:23:37 | ============================================================
+2026-04-13 16:23:37 | Quantile     Model           Baseline(0)     Better?
+2026-04-13 16:23:37 | ------------------------------------------------------------
+2026-04-13 16:23:37 | P10          3.213785        3.252460        YES
+2026-04-13 16:23:37 | P50          3.123501        3.123844        YES
+2026-04-13 16:23:37 | P90          2.968545        2.995227        YES
+2026-04-13 16:23:38 | 
+2026-04-13 16:23:38 | Calibration analysis plot saved to checkpoints_05_quantile\quantile_calibration_analysis.png
